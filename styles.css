@@ -160,10 +160,37 @@ em {
 img {
 	width: 100%;
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	margin-right: 0;
+}
+
+.mini_left {
+	border: 1px solid #c0c7cd;
+	box-shadow: none;
+	float: left;
+	margin: 10px 0;
+	width: 48%;
+	-webkit-filter: grayscale(75%);
+}
+
+.mini_right {
+	border: 1px solid #c0c7cd;
+	box-shadow: none;
+	float: right;
+	margin: 10px 0;
+	width: 48%;
+	-webkit-filter: grayscale(75%);
+}
+
+.mini_left:hover {
+	-webkit-filter: grayscale(0%);
+}
+
+.mini_right:hover {
+	-webkit-filter: grayscale(0%);
 }
 
 hr {
-	border-top: 1px solid #ccc;
+	border-top: 1px solid #c0c7cd;
 	border-left: 0;
 	border-right: 0;
 	border-bottom: 0;
@@ -189,6 +216,10 @@ button:hover {
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	color: #fff;
 	outline: none;
+}
+
+.clear {
+	clear: both;
 }
 
 .linkedin {
